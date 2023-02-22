@@ -5,6 +5,7 @@ import { deleteContact } from './../../services/contactServices';
 const Contact = ({ contact, deleteContact }) => {
   return (
     <div className="col-md-6 ">
+               {/* sdseg */}
       <div style={{ backgroundColor: CURRENTLINE }} className="card my-2">
         <div className="card-body">
           <div className="row align-items-center d-flex justify-content-around">
@@ -31,6 +32,8 @@ const Contact = ({ contact, deleteContact }) => {
                     {contact.mobile}
                   </span>
                 </li>
+                
+       
 
                 <li className="list-group-item list-group-item-dark">
                   آدرس ایمیل :{"  "}
