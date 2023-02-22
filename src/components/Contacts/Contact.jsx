@@ -5,7 +5,7 @@ import { deleteContact } from './../../services/contactServices';
 const Contact = ({ contact, deleteContact }) => {
   return (
     <div className="col-md-6 ">
-               {/* sdseg */}
+              
       <div style={{ backgroundColor: CURRENTLINE }} className="card my-2">
         <div className="card-body">
           <div className="row align-items-center d-flex justify-content-around">
