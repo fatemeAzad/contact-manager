@@ -49,7 +49,7 @@ const Contact = ({ contact, deleteContact }) => {
                 <i className="fa fa-eye" />
               </Link>
 
-              <Link
+              {/* <Link
                 to={`/contacts/edit/${contact.id}`}
                 className="btn my-1"
                 style={{ backgroundColor: CYAN }}
@@ -62,7 +62,7 @@ const Contact = ({ contact, deleteContact }) => {
                 style={{ backgroundColor: RED }}
               >
                 <i className="fa fa-trash" />
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
